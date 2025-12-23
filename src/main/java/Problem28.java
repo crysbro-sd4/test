@@ -1,0 +1,16 @@
+public class Problem28 {
+    public static void main(String[] args) {
+//        strStr("leetcode", "leeto");
+//        System.out.println(strStr("leetcode", "leeto"));
+        System.out.println("sadleetcodesad".indexOf("esad"));
+    }
+
+    public static int strStr(String haystack, String needle) {
+        for (int i = 0; i < haystack.length() - needle.length() + 1; i++) {
+            if (haystack.substring(i, needle.length() + i).equals(needle)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+}
