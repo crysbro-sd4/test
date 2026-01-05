@@ -6,10 +6,8 @@ public class HashMapTest {
 //        var testHashMap = new HashMap<String, Integer>();
 
         testHashMap.put("a", 3);
-        testHashMap.put("a", 8);
         testHashMap.put("b", 6);
         testHashMap.put("c",8);
-        testHashMap.put("c",5);
         testHashMap.put("c", 2);
 
 //        testHashMap.remove("c");
