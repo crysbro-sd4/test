@@ -9,3 +9,9 @@ and more recently with desktop publishing software like Aldus PageMaker includin
 Checkout/switch to a commit = move HEAD
 Create branch = put a name at that commit
 Work safely = HEAD must be on a branch
+
+🧩 One-line mental model
+
+Checkout/switch to a commit = move HEAD
+Create branch = put a name at that commit
+Work safely = HEAD must be on a branch
