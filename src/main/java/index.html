@@ -1,10 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/body.css" />
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <script
+            src="https://kit.fontawesome.com/4da15d2d66.js"
+            crossorigin="anonymous"
+    ></script>
 </head>
 <body>
-
+<div id="outter">
+    <div id="top-bar">
+        <i class="fa-solid fa-bars"></i>
+        <div><p>Gmail</p></div>
+        <div><p>Images</p></div>
+        <div id="google-apps">
+          <span title="Google apps" class="material-symbols-outlined">
+            apps
+          </span>
+        </div>
+        <div id="button-sign-in">Sign in</div>
+    </div>
+    <div id="google-img">
+        <picture>
+            <source
+                    srcset="./img/googlelogo_light_color_272x92dp.png"
+                    media="(prefers-color-scheme: dark)"
+            />
+            <img src="./img/googlelogo_color_272x92dp.png" alt="" />
+        </picture>
+    </div>
+    <div id="search-bar">
+        <form action="https://www.google.com/search">
+            <div class="search">
+                <div><span class="material-symbols-outlined"> search </span></div>
+                <div id="search-input"><input type="text" name="q" id="" /></div>
+                <div>
+                    <img title="Search by voice" src="./img/pngwing.com.png" alt="" />
+                </div>
+                <div>
+                    <img
+                            title="Search by image"
+                            src="./img/Google_Lens_Icon.svg.png"
+                            alt=""
+                    />
+                </div>
+            </div>
+            <div class="search-buttons">
+                <!-- <div>Google Search</div> -->
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </div>
+    <div id="google-offered">
+        <a>Google offered in:&nbsp;&nbsp;</a><a class="sinhala-tamil" href="">සිංහල&nbsp;&nbsp;</a>
+        <a class="sinhala-tamil" href="">தமிழ்</a>
+    </div>
+    <div id="disclaimer">Disclaimer! This Google.com clone is a design replication created solely for educational and learning purposes.</div>
+    <div id="bottom">
+        <div id="bottom-1" class="bottom-bars">Sri Lanka</div>
+        <div id="bottom-2" class="bottom-bars">
+            <div class="bottom-inner">
+                <a href="">About</a><a href="">Advertising</a
+            ><a href="">Bussiness</a><a href="">How Search works</a>
+            </div>
+            <div>
+                <a href="">Privacy</a><a href="">Terms</a><a href="">Settings</a>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
