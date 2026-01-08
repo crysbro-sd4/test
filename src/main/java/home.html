@@ -1,12 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ikman - Electronics, Cars, Property and Jobs in Sri Lanka</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <script
+            src="https://kit.fontawesome.com/4da15d2d66.js"
+            crossorigin="anonymous"
+    ></script>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
 </head>
 <body>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Dolor fuga nobis quos temporibus tenetur. Ea earum error est facilis id laudantium minus nisi non,
-    placeat provident quasi quos sed suscipit!
+<div id="app-container">
+    <header id="header">
+        <div id="inner-head">
+            <div id="header-1">
+                <div id="list-a">
+                    <i id="list-icon" class="bi bi-list"></i>
+                    <div><img src="./img/download.png" alt="ikman.lk" /></div>
+                    <div id="list-1">
+                        <ul>
+                            <li>
+                                <a href="#"><p>All ads</p></a>
+                            </li>
+                            <div id="left-div">
+                                <li><a href="">සිංහල</a></li>
+                            </div>
+                            <div id="right-div">
+                                <li><a href="">தமிழ்</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="header-2">
+                <div id="list-b">
+                    <div id="chat">
+                        <i class="fa-solid fa-comments" style="color: #ffffff"></i>
+                        <a href="">Chat</a>
+                    </div>
+                    <div id="login">
+                        <i class="fa-solid fa-user-large"></i>
+                        <a href="">Login</a>
+                    </div>
+                    <div>
+                        <button>POST YOUR AD</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="content">
+        <div id="search">
+            <div id="search-bar">
+                <div id="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>All of Sri Lanka</div>
+                </div>
+                <div>
+                    <form for="search-btn" id="inner-search" action="https://ikman.lk/en/ads">
+                        <button id="search-btn"><i
+                                class="fa-solid fa-magnifying-glass"
+                                style="
+                    color: black;
+                    background-color: rgb(255, 198, 28);
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    line-height: 50px;
+                    text-align: center;
+                  "
+                        ></i></button>
+                        <input
+                                type="text"
+                                placeholder="&nbsp;What are you looking for?"
+                                style="font-size: 1.1rem"
+                                name="query"
+                        />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="browse-items">
+            <div style="color: red; display: flex; text-align: start; line-height: 50px" id="browse-items-1">This&nbsp;<p id="hidden-disclaimer">ikman.lk&nbsp;</p> clone is&nbsp;<p id="hidden-disclaimer">a design replication&nbsp;</p> created solely for&nbsp;<p id="hidden-disclaimer">educational and&nbsp;</p> learning purposes.</div>
+            <div
+                    style="
+              display: flex;
+              justify-content: space-between;
+              padding: 0px 10px;
+            "
+            >
+                <p>Browse items by category</p>
+                <a id="see-all" href="#">See all</a>
+            </div>
+            <div id="browse-items-container">
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/1.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Electronics</div>
+                        <div>147,152 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/2.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Property</div>
+                        <div>78,680 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/3.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Vehicles</div>
+                        <div>74,590 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/4.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Home & Garden</div>
+                        <div>23,403 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/5.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Servies</div>
+                        <div>20,065 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/6.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Bussiness & Industry</div>
+                        <div>13,725 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/7.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Animals</div>
+                        <div>11,938 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/8.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Hobby, Sport& Kids</div>
+                        <div>11,717 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/9.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Jobs</div>
+                        <div>8,778 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/10.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Fashion & Beauty</div>
+                        <div>6,889 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/11.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Education</div>
+                        <div>2,796 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/12.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Other</div>
+                        <div>1,658 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/13.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Essentials</div>
+                        <div>1,601 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/14.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Agriculture</div>
+                        <div>1,162 ads</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="browse-item-img">
+                        <img src="./img/browse-items/15.png" alt="" />
+                    </div>
+                    <div class="item-details">
+                        <div>Work & Overseas</div>
+                        <div>694 ads</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="add-poster">
+            <div id="add-poster-left">
+                <div><img src="img/browse-items/16.png" alt="" /></div>
+                <div id="add-poster-left-bottom">
+                    <div id="start-making-money">
+                        <p
+                                style="
+                    height: 50px;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    line-height: 80px;
+                  "
+                        >
+                            Start making money!
+                        </p>
+                    </div>
+                    <div
+                            style="
+                  display: flex;
+                  flex-direction: column;
+                  font-size: 0.9rem;
+                  gap: 5px;
+                  color: #626262;
+                "
+                    >
+                <span>Do you have something to sell?</span
+                ><span>Post your first ad and start making money!</span>
+                    </div>
+                    <div style="display: flex; justify-content: start">
+                        <button>
+                            <i class="bi bi-plus-circle-fill"></i>
+                            <span>&nbsp;Post your ad for free</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="add-poster-right">
+                <div>
+                    <img src="img/browse-items/17.png" alt="" />
+                </div>
+
+                <div
+                        style="
+                display: flex;
+                flex-direction: column;
+                font-size: 0.9rem;
+                gap: 5px;
+                color: #626262;
+              "
+                >
+              <span>Looking to hire or get hired in Sri Lanka ?</span
+              ><span
+                >Get access to 400k+ CVs or browse through 4.5k+ job
+                vacancies!</span
+                >
+                </div>
+
+                <div style="display: flex; justify-content: start">
+                    <button>
+                        <span>Explore more&nbsp;</span>
+                        <i class="bi bi-arrow-right-circle-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="quick-links">
+            <div>
+                <p><strong>Quick links</strong></p>
+            </div>
+            <div id="inner-quick-links">
+                <div>
+                    <div class="quick-link-topic">
+                        <p><strong>147,240 ads in Electronics</strong></p>
+                    </div>
+                    <div>
+                        Mobile Phones | Cameras & Camcorders | Computers & Tablets | TVs
+                        | Air Conditions & Electrical fittings
+                    </div>
+                </div>
+                <div>
+                    <div class="quick-link-topic">
+                        <p><strong>89,474 ads in Property</strong></p>
+                    </div>
+                    <div>
+                        Land | Houses For Sale | House Rentals | Apartments For Sale |
+                        Apartment Rentals
+                    </div>
+                </div>
+                <div>
+                    <div class="quick-link-topic">
+                        <p><strong>8,867 ads in Jobs</strong></p>
+                    </div>
+                    <div>
+                        Data Entry Operator | Driver | Packing Officer | Clerk | Sales
+                        Executive
+                    </div>
+                </div>
+                <div>
+                    <div class="quick-link-topic">
+                        <p><strong>76,235 ads in Vehicles</strong></p>
+                    </div>
+                    <div>
+                        Cars | Motorbikes | Three Wheelers | Auto Parts & Accessories |
+                        Auto Services
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about-ikman">
+            <p>
+                <strong>About ikman, The Largest Marketplace in Sri Lanka!</strong><br><br>
+                Sri Lanka’s household name for buying and selling anything to everything online. Do you want to buy a property? Check ikman! <p id="hide-para"> Do you want to sell a bike? Check ikman. <br><br>
+            ikman has the widest selection of items across Sri Lanka and over 50 different categories. Whether you're looking for a car, mobile phone, house,</p> <br>
+            </p>
+            <button>Show more<i class="bi bi-arrow-down-short"></i></button>
+        </div>
+    </main>
+    <footer id="footer">
+        <div id="footer-content">
+            <div id="footer-content-top">
+                <div>
+                    <div class="sub-footer"><strong>Download our app</strong></div>
+                    <div id="app-icons">
+                        <img src="img/browse-items/18.png" alt="">
+                        <img src="img/browse-items/19.png" alt="">
+                    </div>
+                    <div id="quick-link-header" class="sub-footer"><strong>Connect with</strong></div>
+                    <div class="sub-footer">
+                        <div><i style="color: #4267B2;" class="bi bi-facebook"></i>&nbsp;<a href=""><strong>Like us on facebook</strong></a></div>
+                    </div>
+                    <div class="sub-footer"><strong>Other countries</strong></div>
+                    <div class="sub-footer"><a href="">Bangladesh</a></div>
+                </div>
+                <div class="footer-links">
+                    <div><strong>More From ikman</strong></div>
+                    <div><a href="">Sell Fast</a></div>
+                    <div><a href="">Membership</a></div>
+                    <div><a href="">Banner Ads</a></div>
+                    <div><a href="">Ad Promotions</a></div>
+                    <div><a href="">Staffing solutions</a></div>
+                    <div><a href="">CarGuid</a></div>
+                </div>
+                <div class="footer-links">
+                    <div><strong>Help & Support</strong></div>
+                    <div><a href="">FAQ</a></div>
+                    <div><a href="">Stay safe</a></div>
+                    <div><a href="">Contact Us</a></div>
+                </div>
+                <div class="footer-links">
+                    <div><strong>Follow ikman</strong></div>
+                    <div><a href="">Blog</a></div>
+                    <div><a href="">Facebook</a></div>
+                    <div><a href="">Twitter</a></div>
+                    <div><a href="">Youtube</a></div>
+                </div>
+                <div class="footer-links">
+                    <div><strong>About ikman</strong></div>
+                    <div><a href="">About Us</a></div>
+                    <div><a href="">Careers</a></div>
+                    <div><a href="">Terms and Conditions</a></div>
+                    <div><a href="">Privacy policy</a></div>
+                    <div><a href="">Sitemap</a></div>
+                </div>
+            </div>
+            <div id="footer-content-bottom">
+                <div>Copyright © Saltside Technologies</div>
+                <div><img src="img/footer-2x-54fad31b.png" alt=""></div>
+            </div>
+        </div>
+        <div id="footer-content-hidden">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div><strong>Download our app</strong></div>
+                <div id="app-icons">
+                    <img src="img/browse-items/18.png" alt="">
+                    <img src="img/browse-items/19.png" alt="">
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center; padding: 20px 0px;">
+                <div><i style="color: #4267B2;" class="bi bi-facebook"></i>&nbsp;<a href=""><strong>Like us on facebook</strong></a></div>
+            </div>
+            <div style="display: flex; justify-content: center; padding: 20px 0px;">
+                <div><a href="">Help & Support &nbsp;|</a></div>
+                <div><a href="">&nbsp;&nbsp;More</a></div>
+            </div>
+            <div style="display: flex; justify-content: center; padding: 20px 0px;">
+                <div><a href="">සිංහල &nbsp;|</a></div>
+                <div><a href="">&nbsp;&nbsp;தமிழ்</a></div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 5px; padding: 10px 0px; border-bottom: none;">
+                <div><strong>Other countries</strong></div>
+                <div><a href="">Bangladesh</a></div>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
