@@ -9,3 +9,11 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: sans-serif;
+}
